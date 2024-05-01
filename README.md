@@ -47,3 +47,16 @@ A interface de usuário (UI) desta API foi desenvolvida em Angular e está dispo
 ## Gerando a Tabela no Banco de Dados
 
 Esta aplicação irá gerar as tabelas necessárias no banco de dados automaticamente assim que você rodar o projeto graças ao Hibernate.
+
+
+## Teste e Documentação da API
+
+Esta API utiliza o Swagger para facilitar o teste e a documentação dos endpoints. Com o Swagger, você pode:
+
+- **Documentação Automática:** Todos os endpoints da API estão documentados automaticamente usando a especificação OpenAPI (anteriormente conhecida como Swagger Specification).
+  
+- **Interface Interativa (Swagger UI):** Explore e teste os endpoints da API diretamente no seu navegador usando a interface interativa gerada pelo Swagger UI.
+  
+- **Teste de Funcionalidades:** Além da documentação, você pode testar todas as funcionalidades da API de forma interativa e fácil de usar.
+
+Para acessar a documentação e o Swagger UI, inicie a aplicação e navegue até o seguinte endpoint no seu navegador: http://localhost:8082/swagger-ui/index.html.
